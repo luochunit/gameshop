@@ -1,4 +1,4 @@
 gameshop
 ========
 
-toolkit
+workspace toolkit
