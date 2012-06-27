@@ -1,0 +1,15 @@
+apply plugin: 'war'
+apply plugin: 'jetty'
+apply plugin: 'eclipse'
+group = 'com.ringoluo.gameshop'
+version = '0.1'
+repositories {
+	maven {
+		url "http://repo.springsource.org/milestone"
+	}
+	mavenCentral()
+}
+dependencies {
+	compile "org.slf4j:jcl-over-slf4j:1.6.1","org.slf4j:jul-to-slf4j:1.6.1"
+	compile "org.springframework:spring-webmvc:3.2.0.M1"
+}
